@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="assets/music.png" />
+    <title>ملاذ الموسيقى - اتصل بنا</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-image">
+        <img src="assets/imgs/hero3.png" alt="صورة الرأس" />
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="portfolio.html">أعمالنا</a></li>
+        <li><a href="about.html">عنّا</a></li>
+        <li><a href="contact.html" class="active">اتصل بنا</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <main>
+        <section class="main-section contact-form">
+          <h1>تواصل معنا</h1>
+          <p class="subtitle">نحن هنا لمساعدتك</p>
+          <form>
+            <label for="name">الاسم</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">رسالتك</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">إرسال</button>
+          </form>
+        </section>
+
+        <section class="main-section contact-info">
+          <h1>معلومات الاتصال</h1>
+          <p>البريد الإلكتروني: info@musichaven.com</p>
+          <p>الهاتف: +123-456-7890</p>
+          <p>العنوان: شارع الموسيقى، نيو أورليانز، الولايات المتحدة</p>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>© 2025 صنع بواسطة سيف نشوان.</p>
+    </footer>
+  </body>
+</html>
